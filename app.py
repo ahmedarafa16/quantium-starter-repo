@@ -15,7 +15,9 @@ app.layout = html.Div(style={'backgroundColor': '#f9f9f9', 'padding': '40px', 'f
                       children=[
 
                           # Styled Header
+                          # Styled Header
                           html.H1(
+                              id='header',  # Add this ID here!
                               children='Pink Morsel Sales Visualizer',
                               style={
                                   'textAlign': 'center',
